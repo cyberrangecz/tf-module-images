@@ -9,7 +9,7 @@ resource "openstack_images_image_v2" "focal" {
   }
 }
 
-resource "openstack_images_image_v2" "debian" {
+resource "openstack_images_image_v2" "debian_9" {
   name             = "debian-9-x86_64"
   image_source_url = "http://cdimage.debian.org/cdimage/openstack/current-9/debian-9-openstack-amd64.qcow2"
   container_format = "bare"
