@@ -19,3 +19,14 @@ resource "openstack_images_image_v2" "debian_9" {
     os_type = "linux"
   }
 }
+
+resource "openstack_images_image_v2" "debian_10_man" {
+  name             = "debian-10-man"
+  image_source_url = "https://object-store.cloud.muni.cz/swift/v1/kypo-images/debian-10-man.qcow2"
+  container_format = "bare"
+  disk_format      = "qcow2"
+
+  properties = {
+    os_type = "linux"
+  }
+}
