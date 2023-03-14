@@ -30,3 +30,14 @@ resource "openstack_images_image_v2" "debian_10_man" {
     os_type = "linux"
   }
 }
+
+resource "openstack_images_image_v2" "debian_11_man" {
+  name             = "debian-11-man"
+  image_source_url = "https://cloud.debian.org/images/cloud/bullseye/daily/latest/debian-11-genericcloud-amd64-daily.qcow2"
+  container_format = "bare"
+  disk_format      = "qcow2"
+
+  properties = {
+    os_type = "linux"
+  }
+}
