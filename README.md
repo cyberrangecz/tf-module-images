@@ -20,6 +20,7 @@ No modules.
 | Name | Type |
 |------|------|
 | [openstack_images_image_v2.debian_10_man](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
+| [openstack_images_image_v2.debian_11_man](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
 | [openstack_images_image_v2.debian_9](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
 | [openstack_images_image_v2.focal](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
 
