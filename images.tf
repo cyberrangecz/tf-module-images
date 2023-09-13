@@ -41,3 +41,15 @@ resource "openstack_images_image_v2" "debian_11_man" {
     os_type = "linux"
   }
 }
+
+resource "openstack_images_image_v2" "kali" {
+  count            = var.kali ? 1 : 0
+  name             = "kali"
+  image_source_url = "https://object-store.cloud.muni.cz/swift/v1/kypo-images/kali.qcow2"
+  container_format = "bare"
+  disk_format      = "qcow2"
+
+  properties = {
+    os_type = "linux"
+  }
+}
