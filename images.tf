@@ -42,6 +42,18 @@ resource "openstack_images_image_v2" "debian_11_man" {
   }
 }
 
+resource "openstack_images_image_v2" "preinstalled_debian_11_man" {
+  count            = var.preinstalled_man ? 1 : 0
+  name             = "debian-11-man-preinstalled"
+  image_source_url = "https://object-store.cloud.muni.cz/swift/v1/kypo-images/debian-11-man.qcow2"
+  container_format = "bare"
+  disk_format      = "qcow2"
+
+  properties = {
+    os_type = "linux"
+  }
+}
+
 resource "openstack_images_image_v2" "kali" {
   count            = var.kali ? 1 : 0
   name             = "kali"

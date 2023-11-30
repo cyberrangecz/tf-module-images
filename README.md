@@ -24,12 +24,14 @@ No modules.
 | [openstack_images_image_v2.debian_9](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
 | [openstack_images_image_v2.focal](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
 | [openstack_images_image_v2.kali](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
+| [openstack_images_image_v2.preinstalled_debian_11_man](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_kali"></a> [kali](#input\_kali) | Import Kali image | `bool` | `true` | no |
+| <a name="input_preinstalled_man"></a> [preinstalled\_man](#input\_preinstalled\_man) | Import preinstalled man image | `bool` | `true` | no |
 
 ## Outputs
 
