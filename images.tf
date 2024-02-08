@@ -20,8 +20,8 @@ resource "openstack_images_image_v2" "debian_9" {
   }
 }
 
-resource "openstack_images_image_v2" "debian_10_man" {
-  name             = "debian-10-man"
+resource "openstack_images_image_v2" "debian_10" {
+  name             = "debian-10"
   image_source_url = "http://cdimage.debian.org/cdimage/openstack/current-10/debian-10-openstack-amd64.qcow2"
   container_format = "bare"
   disk_format      = "qcow2"
