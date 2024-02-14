@@ -62,6 +62,7 @@ resource "openstack_images_image_v2" "kali" {
   disk_format      = "qcow2"
 
   properties = {
-    os_type = "linux"
+    os_type                                = "linux"
+    "owner_specified.openstack.gui_access" = true
   }
 }
