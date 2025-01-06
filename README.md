@@ -19,23 +19,19 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [openstack_images_image_v2.debian_10](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
-| [openstack_images_image_v2.debian_11_man](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
-| [openstack_images_image_v2.debian_9](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
-| [openstack_images_image_v2.focal](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
+| [openstack_images_image_v2.debian_12](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
 | [openstack_images_image_v2.kali](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
-| [openstack_images_image_v2.preinstalled_debian_11_man](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
+| [openstack_images_image_v2.noble](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/images_image_v2) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_kali"></a> [kali](#input\_kali) | Import Kali image | `bool` | `true` | no |
-| <a name="input_preinstalled_man"></a> [preinstalled\_man](#input\_preinstalled\_man) | Import preinstalled man image | `bool` | `true` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_focal_name"></a> [focal\_name](#output\_focal\_name) | Name of Ubuntu Focal image |
+| <a name="output_noble_name"></a> [noble\_name](#output\_noble\_name) | Name of Ubuntu Noble image |
 <!-- END_TF_DOCS -->
